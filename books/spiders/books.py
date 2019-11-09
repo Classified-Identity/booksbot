@@ -4,9 +4,9 @@ import scrapy
 
 class BooksSpider(scrapy.Spider):
     name = "books"
-    allowed_domains = ["books.toscrape.com"]
+    allowed_domains = ["devforum.roblox.com","doy2mn9upadnk.cloudfront.net"]
     start_urls = [
-        'http://books.toscrape.com/',
+        'https://devforum.roblox.com/',
     ]
 
     def parse(self, response):
